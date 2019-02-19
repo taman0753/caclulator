@@ -11,5 +11,21 @@ int main()
 	int a=10 , b=5;
 	cout<<"sum="<<endl;
 	add();
-	retuen(0);
+	return(0);
+
 }
+void sub (int a, int b)
+{
+        int diff;
+        diff=a-b;
+        cout<<diff;
+}
+int main()
+{
+        int a=10 , b=5;
+        cout<<"difference="<<endl;
+        sub();
+        return(0);
+
+}
+
