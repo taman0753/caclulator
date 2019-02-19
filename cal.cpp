@@ -6,27 +6,11 @@ void add (int a, int b)
 	sum=a+b;
 	cout<<sum;
 }
-int main()
-{
-	int a=10 , b=5;
-	cout<<"sum="<<endl;
-	add();
-	return(0);
-
-}
 void sub (int a, int b)
 {
         int diff;
         diff=a-b;
         cout<<diff;
-}
-int main()
-{
-        int a=10 , b=5;
-        cout<<"difference="<<endl;
-        sub();
-        return(0);
-
 }
 void mul (int a, int b)
 {
@@ -34,11 +18,25 @@ void mul (int a, int b)
         prod=a*b;
         cout<<prod;
 }
+void div (int a, int b)
+{
+        int quo;
+        quo=a/b;
+        cout<<quo;
+}
 int main()
 {
         int a=10 , b=5;
+	cout<<"sum"<<endl;
+	add(a,b);
+
+	cout<<"diff"<<endl;
+	sub(a,b);
         cout<<"product"<<endl;
-        mul();
+	mul(a,b);
+	cout<<"division"<<endl;
+	div(a,b);
+       
         return(0);
 
 }
