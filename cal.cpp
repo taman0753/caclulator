@@ -28,4 +28,19 @@ int main()
         return(0);
 
 }
+void mul (int a, int b)
+{
+        int prod;
+        prod=a*b;
+        cout<<prod;
+}
+int main()
+{
+        int a=10 , b=5;
+        cout<<"product"<<endl;
+        mul();
+        return(0);
+
+}
+
 
